@@ -18,7 +18,7 @@ v1=input()
 print("Insert another verb.")
 v2=input()
 
-print("Insert a person's name.")
+print("Insert a relation. Ex: friend, teacher, mother, ...")
 person1=input()
 
 print("Insert a fruit.")
@@ -51,9 +51,9 @@ color1=input
 print("Insert an adjective.")
 adj2=input
 
-print ("Red, (adj1) apples!")
-print ("Today we are going to (v1) apples.")
-print ("I am going to (v2) the most.")
+print ("Red, "+adj1+" apples!")
+print ("Today we are going to "+v1+" apples.")
+print ("I am going to "+v2+" the most.")
 print ("My (person1) and I are having an (fruit1) picking contest this year.")
 print ("Every (season1) we go to (person's2) farm to pick a (n1) of apples.")
 print ("This year (person3) wants to make (n2), so we needa lot.")
