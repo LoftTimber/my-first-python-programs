@@ -5,6 +5,7 @@
 
 
 print("Welcome to Mad Libs!")
+
 print ()
 print("What is your name?")
 name=input()
