@@ -23,7 +23,7 @@ def parallelogram_area(b,h):
     return a
 
 def trapezoid_area(a,b,h):
-    A=(a/2+b/2)h
+    A=(a/2+b/2)*h
     return A
 
 def rectangular_prism_volume(w,h,L):
@@ -31,15 +31,15 @@ def rectangular_prism_volume(w,h,L):
     return V
 
 def cone_volume(r,h):
-    V=math.pi*r**2(h/3)
+    V=math.pi*(r**2)*(h/3)
     return V
 
 def sphere_volume(r):
-    V=(4/3)math.pi*r**3
+    V=(4/3)*math.pi*r**3
     return V
 
 def rectangular_prism_surface_area(w,L,h):
-    A=2(w*L+h*L+h*w)
+    A=2*(w*L+h*L+h*w)
     return A
 
 def sphere_surface_area(r):
@@ -47,5 +47,9 @@ def sphere_surface_area(r):
     return A
 
 def right_triangle_hypotenuse(a,b):
-    c**2=a**2+b**2
+    c=(a**2+b**2)//2
     return c
+
+def herons_formula(A,B,C):
+    S=(A+B+C)/2
+    return S
