@@ -47,9 +47,10 @@ def sphere_surface_area(r):
     return A
 
 def right_triangle_hypotenuse(a,b):
-    c=(a**2+b**2)//2
+    c=math.sqrt(a**2+b**2)
     return c
 
 def herons_formula(A,B,C):
     S=(A+B+C)/2
-    return S
+    R=math.sqrt(S*(S-A)*(S-B)*(S-C))
+    return R
